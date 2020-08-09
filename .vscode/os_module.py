@@ -1,0 +1,10 @@
+import os
+print(os.getcwd())
+os.getcwd()
+os.chdir("C:/Users/Admin/Desktop/")
+print(os.getcwd())
+print(os.listdir())
+os.makedirs('random_file_go/random_file_3')
+print(os.listdir())
+os.removedirs('random_file_go/random_file_3')
+print(os.listdir())
